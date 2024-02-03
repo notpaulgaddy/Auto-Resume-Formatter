@@ -1,0 +1,11 @@
+{
+    "name": "Resume Formatter",
+    "version": "1.0.0",
+    "description": "This is an extension to make applying for software jobs as a SWE intern easier.",
+    "manifest_version": 3,
+    "author": "Paul Gaddy",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "SWE Apps Made Easy"
+    }
+}
