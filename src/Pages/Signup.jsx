@@ -27,13 +27,14 @@ export default function Signup() {
             const user = userCredential.user;
             await setDoc(doc(db, "users", user.uid), {
                 email: user.email,
-                name: "",
-                number: "",
-                location: "",
+                firstName: "",
+                lastName: "",
+                phoneNumber: "",
+                schoolCity: "",
                 linkedin: "",
                 github: "",
                 schoolName: "",
-                schoolLocation: "",
+                schoolState: "",
                 schoolMajor: "",
                 majorConcentration: ""
             });
